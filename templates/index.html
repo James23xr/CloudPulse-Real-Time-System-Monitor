@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Monitoring</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>System Monitoring</h1>
+
+        <p>CPU Utilization: <span id="cpu-text">{{ cpu_percent }}</span>%</p>
+        <p>Memory Utilization: <span id="mem-text">{{ mem_percent }}</span>%</p>
+
+        <div id="cpu-gauge"></div>
+        <div id="mem-gauge"></div>
+
+        {% if message %}
+        <div class="alert alert-danger">
+            {{ message.replace('\n','<br>') |safe }}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        var cpuPercent = {{ cpu_percent }};
+        var memPercent = {{ mem_percent }};
+
+        console.log("CPU Utilization:", cpuPercent);
+        console.log("Memory Utilization:", memPercent);
+
+        function createGauge(elementId, value, title) {
+            console.log("Creating gauge:", elementId, value, title);
+            var data = [
+                {
+                    domain: { x: [0, 1], y: [0, 1] },
+                    value: value,
+                    title: { text: title },
+                    type: "indicator",
+                    mode: "gauge+number",
+                    gauge: {
+                        axis: { range: [null, 100] },
+                        bar: { color: value > 80 ? "red" : "blue" },
+                        steps: [
+                            { range: [0, 50], color: "lightgreen" },
+                            { range: [50, 80], color: "yellow" },
+                            { range: [80, 100], color: "red" }
+                        ],
+                    }
+                }
+            ];
+
+            var layout = { width: 300, height: 250, margin: { t: 0, b: 0 } };
+            Plotly.newPlot(elementId, data, layout);
+        }
+
+        createGauge('cpu-gauge', cpuPercent, 'CPU Utilization (%)');
+        createGauge('mem-gauge', memPercent, 'Memory Utilization (%)');
+    </script>
+</body>
+</html>
