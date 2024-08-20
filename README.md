@@ -43,7 +43,7 @@ CloudPulse is a cutting-edge, cloud-native application designed to provide real-
 ### Quick Start
 
 1. Clone the repository:
-git clone https://github.com/yourusername/cloudpulse.git
+`git clone https://github.com/James23xr/cloudpulse.git`
 Copy
 2. Navigate to the project directory:
 `cd cloudpulse`
