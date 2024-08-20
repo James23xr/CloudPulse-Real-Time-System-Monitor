@@ -61,7 +61,7 @@ For detailed instructions on cloud deployment, please refer to our [Deployment G
 
 ## 📘 Documentation
 
-For more information on setup, configuration, and usage, please refer to our [Wiki](https://github.com/yourusername/cloudpulse/wiki).
+For more information on setup, configuration, and usage, please refer to our [DOCS](docs).
 
 ## 🤝 Contributing
 
