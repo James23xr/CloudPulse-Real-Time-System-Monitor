@@ -26,5 +26,3 @@ class ProductionConfig(Config):
 
 class TestingConfig(Config):
     TESTING = True
-
-To use a specific configuration, set the FLASK_ENV environment variable accordingly.
