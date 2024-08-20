@@ -61,7 +61,7 @@ For detailed instructions on cloud deployment, please refer to our [Deployment G
 
 ## 📘 Documentation
 
-For more information on setup, configuration, and usage, please refer to our [DOCS](docs).
+For more information on setup, configuration, and usage, please refer to our [DOCS](https://github.com/James23xr/CloudPulse-Real-Time-System-Monitor/blob/main/Configuration.md).
 
 ## 🤝 Contributing
 
