@@ -64,19 +64,11 @@ For more information on setup, configuration, and usage, please refer to our [Wi
 
 ## 🤝 Contributing
 
-We welcome contributions to CloudPulse! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+We welcome contributions to CloudPulse! 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/cloudpulse](https://github.com/yourusername/cloudpulse)
-
----
+This project is licensed under the MIT License.
 
 <p align="center">
 Made with ❤️ by Your Name
