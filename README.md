@@ -72,5 +72,5 @@ We welcome contributions to CloudPulse!
 This project is licensed under the MIT License.
 
 <p align="center">
-Made with ❤️ by Your Name
+Made with ❤️ by James Fei-Baffoe
 </p>
