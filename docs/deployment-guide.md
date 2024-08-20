@@ -178,4 +178,3 @@ aws ecr delete-repository --repository-name cloudpulse --force --region us-east-
 ```
 
 Remember to replace `<your-account-id>` with your actual AWS account ID throughout this guide.
-```
