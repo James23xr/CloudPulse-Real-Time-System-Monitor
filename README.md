@@ -43,3 +43,41 @@ CloudPulse is a cutting-edge, cloud-native application designed to provide real-
 ### Quick Start
 
 1. Clone the repository:
+git clone https://github.com/yourusername/cloudpulse.git
+Copy
+2. Navigate to the project directory:
+cd cloudpulse
+Copy
+3. Build the Docker image:
+docker build -t cloudpulse:latest .
+Copy
+4. Run the container locally:
+docker run -p 5000:5000 cloudpulse:latest
+Copy
+5. Access the application at `http://localhost:5000`
+
+For detailed instructions on cloud deployment, please refer to our [Deployment Guide](docs/deployment-guide.md).
+
+## 📘 Documentation
+
+For more information on setup, configuration, and usage, please refer to our [Wiki](https://github.com/yourusername/cloudpulse/wiki).
+
+## 🤝 Contributing
+
+We welcome contributions to CloudPulse! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+Your Name - your.email@example.com
+
+Project Link: [https://github.com/yourusername/cloudpulse](https://github.com/yourusername/cloudpulse)
+
+---
+
+<p align="center">
+Made with ❤️ by Your Name
+</p>
