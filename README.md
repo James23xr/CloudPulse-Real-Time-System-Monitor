@@ -1,7 +1,7 @@
 # CloudPulse: Real-Time System Monitor
 
 <p align="center">
-  <img SystemMonitoring />
+  <img src="SystemMonitoring.png" alt="System Monitoring Dashboard" width="600"/>
 </p>
 
 ## 🚀 Overview
