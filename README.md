@@ -46,15 +46,16 @@ CloudPulse is a cutting-edge, cloud-native application designed to provide real-
 git clone https://github.com/yourusername/cloudpulse.git
 Copy
 2. Navigate to the project directory:
-cd cloudpulse
-Copy
+`cd cloudpulse`
+  
 3. Build the Docker image:
-docker build -t cloudpulse:latest .
-Copy
+`docker build -t cloudpulse:latest` 
+
 4. Run the container locally:
-docker run -p 5000:5000 cloudpulse:latest
-Copy
-5. Access the application at `http://localhost:5000`
+`docker run -p 5000:5000 cloudpulse:latest`
+
+5. Access the application at
+`http://localhost:5000`
 
 For detailed instructions on cloud deployment, please refer to our [Deployment Guide](docs/deployment-guide.md).
 
